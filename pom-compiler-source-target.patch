@@ -1,0 +1,23 @@
+--- pom.xml.orig	2013-03-29 14:56:54.171650079 +0000
++++ pom.xml	2013-03-29 14:58:21.818455592 +0000
+@@ -156,6 +156,20 @@
+         </plugins>
+     </reporting>
+ 
++    <build> 
++        <plugins> 
++            <plugin> 
++                <groupId>org.apache.maven.plugins</groupId> 
++                <artifactId>maven-compiler-plugin</artifactId> 
++                <version>2.5.0</version> 
++                <configuration> 
++                    <source>1.6</source> 
++                    <target>1.6</target> 
++                </configuration> 
++            </plugin> 
++      </plugins> 
++   </build>
++
+     <profiles>
+         <profile>
+             <id>run-its</id>

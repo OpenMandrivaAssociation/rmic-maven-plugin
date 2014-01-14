@@ -2,7 +2,7 @@
 Name:             rmic-maven-plugin
 Version:          1.2.1
 Release:          6.0%{?dist}
-Summary:          Uses the java rmic compiler to generate classes used in remote method invocation
+Summary:          Java rmic compiler to generate classes used in remote method invocation
 License:          MIT
 
 URL:              http://mojo.codehaus.org/%{name}

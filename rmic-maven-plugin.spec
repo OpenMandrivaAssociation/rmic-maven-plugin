@@ -5,7 +5,7 @@ Release:          6.0%{?dist}
 Summary:          Java rmic compiler to generate classes used in remote method invocation
 License:          MIT
 
-URL:              http://mojo.codehaus.org/%{name}
+URL:              https://mojo.codehaus.org/%{name}
 
 Source0:          http://repo2.maven.org/maven2/org/codehaus/mojo/%{name}/%{version}/%{name}-%{version}-source-release.zip
 Patch0:           pom-compiler-source-target.patch
